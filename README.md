@@ -1,4 +1,10 @@
 # Secret Me 
+
+<p align="center">
+  <img src="/assets/image.png" width="350" >
+</p>
+
+
 O intuito desse projeto é desenvolver uma ferramenta que criptografa um payload em AES (um dos algoritmos de criptografia mais seguros) e salva em um arquivo criptografado garantindo assim uma INCRÍVEL obfuscação, causando dificuldades para um AV detectar.
 
 *É importante se lembrar de que existem outras técnicas de ofuscação e técnicas de evasão que podem ser usadas, além de criptografia, como usar código malicioso dentro de arquivos legítimos, usar packers e crypters para ofuscar o código, entre outros.*
