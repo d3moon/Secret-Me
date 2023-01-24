@@ -1,15 +1,27 @@
 import base64
 import os
+import time
 from cryptography.fernet import Fernet
 from cryptography.hazmat.backends import default_backend
 from cryptography.hazmat.primitives import hashes
 from cryptography.hazmat.primitives.kdf.pbkdf2 import PBKDF2HMAC
+
 
 def obfuscate_payload(password):
     filepath = input("Enter the filepath of the payload: ")
     if not os.path.isfile(filepath):
         print("[ERROR] The file does not exist.")
         return None
+    def progress_bar():
+        print("Encrypting file...")
+        print("[", end="")
+        for i in range(20):
+            time.sleep(0.1)
+            print("█", end="")
+        print("]")
+        print("File encryption complete.")
+
+    progress_bar()
 
     with open(filepath, 'rb') as f:
         payload = f.read()

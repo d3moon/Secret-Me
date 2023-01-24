@@ -1,7 +1,7 @@
 # Secret Me 
 
 <p align="center">
-  <img src="/assets/picture.png">
+  <img src="/assets/image.png">
 </p>
 
 
