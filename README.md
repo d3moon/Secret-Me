@@ -5,14 +5,11 @@
 </p>
 
 
-O intuito desse projeto é desenvolver uma ferramenta que criptografa um payload em AES (um dos algoritmos de criptografia mais seguros) e salva em um arquivo criptografado garantindo assim uma INCRÍVEL obfuscação, causando dificuldades para um AV detectar.
+The purpose of this project is to develop a tool that encrypts a payload in AES (one of the safest encryption algorithms) and saves it in an encrypted file, thus guaranteeing an AMAZING obfuscation, causing difficulties for an AV to detect.
 
-*É importante se lembrar de que existem outras técnicas de ofuscação e técnicas de evasão que podem ser usadas, além de criptografia, como usar código malicioso dentro de arquivos legítimos, usar packers e crypters para ofuscar o código, entre outros.*
+*It is important to remember that there are other obfuscation techniques and evasion techniques that can be used in addition to encryption, such as using malicious code inside legitimate files, using packers and crypters to obfuscate the code, and so on.*
 
-**O uso dessa ferramentas é para fins didáticos, de pesquisas e auxílio à equipe de Red Team. Use com cuidado!**
-
-
-
+**The use of these tools is for teaching purposes, research and assistance to the Red Team team. Use with care!**
 
 ## Installation
 
